@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script >
+    alert("你收到一条消息，点击一下");
+</script>
+    <p><h1 style="color:red;text-align: center">阁下长得真是天生励志！</h1>   </p>
+</body>
+</html>
