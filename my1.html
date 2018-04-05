@@ -5,16 +5,41 @@
     <title>Title</title>
     <style>
         body{
-            background-color:greenyellow;
+            background-color: greenyellow;
+
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: red;
+        }
+        .box {
+            width: 600px;
+            margin: auto;
+        }
+        .box li {
+            list-style:none;
+            margin:auto;
+            float: left;
+            width:80px;
+            height:30px;
         }
     </style>
 </head>
-<body>
-
+<body >
 <script >
     alert("你收到一条消息，点击一下");
 </script>
 <p><h1 style="color:red;text-align: center;margin-top: 150px">阁下长得真是天生励志！</h1>   </p>
-     <a href="http://www.baidu.com">百度一下</a>
+<ul class="box">
+    <li><a href="http://www.baidu.com">|百度一下|</a> </li>
+    <li><a href="http://www.hao123.com">|hao123|</a> </li>
+    <li><a href="http://www.qq.com">|腾讯|</a> </li>
+    <li><a href="http://www.google.com">|谷歌|</a> </li>
+    <li><a href="http://www.amazon.com">|亚马逊|</a> </li>
+    <li><a href="http://www.tmall.com">|天猫商城|</a> </li>
+    <li><a href="http://www.sina.com.cn">|新浪|</a> </li>
+</ul>
 </body>
 </html>
